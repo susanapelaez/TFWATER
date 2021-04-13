@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes titulo {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif; 
+    height: 600px;
+    flex-wrap: wrap;
+    max-width: 99%;
+    }
+h2{
+        color: white;
+        font-style: normal;
+        font-size: 22px;
+        text-align: center;
+        background-color: #0a3143;
+        text-transform: capitalize;
+        padding: 1em;
+        }
+.formato{
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    position: fixed;
+    background-color: white;
+    z-index: 100;
+}
+
+.logo{
+    width: 40%;
+    height: 100px;
+    float: left;
+}
+
+nav{
+    width: 60%;
+    height: 100px;
+    float: right;
+    text-align: center;
+    flex-wrap: nowrap;
+}
+
+.menu{
+    flex-wrap: nowrap;
+}
+.menu ul{
+    list-style: none;
+}
+.menu > li{
+    display: inline-block;
+}
+.menu > li > a{
+    text-decoration: none;
+    color: #0a3143;
+    padding: 15px 20px;
+    display: block;
+    font-weight: bold;
+}
+.menu li a:hover{
+    color: white;
+    background-color: #276e90;
+}
+.submenu{
+    position: absolute;
+    color: white;
+    display: none;
+    text-align: left;
+}
+.submenu li a{
+    display: block;
+    padding: 15px;
+    color: white;
+    background-color: #276e90;
+    text-decoration: none;
+}
+.menu li:hover .submenu{
+    display: block;
+}
+.submenu li a:hover{
+    background-color: #0a3143
+}
+
+.galeria{
+    width: 100%;
+    height: 300px;
+}
+
+.productos{
+    width: 100%;
+    height: 350px;
+    animation-duration: 3s;
+    animation-name: producto;
+}
+
+.fondo{
+    background-color: black;
+    color: white;
+    padding: 1em;
+}
+
+.video{
+    height: 300px;
+    width: 100%;
+}
+
+.mision{
+    border: black solid 3px;
+    text-align: center;
+    padding: 1em;
+}
+
+footer{
+    background: linear-gradient(to bottom, #ffffff 0%, #276e90 17%);
+    color: white;
+    height: auto;
+    padding: 5em;
+}
+
+.pie{
+    text-decoration: none;
+}
+
+.productos{
+    width: 400px;
+    height: 500px;
+}

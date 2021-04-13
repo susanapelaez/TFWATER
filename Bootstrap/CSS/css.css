@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 600px;
+    flex-wrap: wrap;
+    max-width: 100%;
+    }
+
+@keyframes titulo {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes producto{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+h2{
+    color: white;
+    font-style: normal;
+    font-size: 22px;
+    text-align: center;
+    background-color: #0a3143;
+    text-transform: capitalize;
+    animation-duration: 3s;
+    animation-name: titulo;
+    }
+
+header{
+    width: 100%;
+    background-color: white;
+    height: 100px;
+}
+
+.formato{
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    position: fixed;
+    background-color: white;
+}
+
+.logo{
+    width: 40%;
+    height: 100px;
+    float: left;
+}
+
+nav{
+    width: 60%;
+    height: 100px;
+    float: right;
+    text-align: center;
+    flex-wrap: nowrap;
+}
+
+#menu{
+    flex-wrap: nowrap;
+}
+.menu ul{
+    list-style: none;
+}
+.menu > li{
+    display: inline-block;
+}
+.menu > li > a{
+    text-decoration: none;
+    color: #0a3143;
+    padding: 15px 20px;
+    display: block;
+    font-weight: bold;
+}
+.menu li a:hover{
+    color: white;
+    background-color: #276e90;
+}
+.submenu{
+    position: absolute;
+    color: white;
+    display: none;
+    text-align: left;
+}
+.submenu li a{
+    display: block;
+    padding: 15px;
+    color: white;
+    background-color: #276e90;
+    text-decoration: none;
+}
+.menu li:hover .submenu{
+    display: block;
+}
+.submenu li a:hover{
+    background-color: #0a3143
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-auto-rows: auto;
+    grid-template-rows: minmax(200px, auto);
+}
+
+.grid div{
+    padding: 1em;
+
+}
+
+.item1{
+    grid-column: 1/5;
+}
+
+.item2{
+    grid-column: 1/5;
+}
+
+.galeria{
+    width: 100%;
+    height: 300px;
+}
+
+.productos{
+    width: 300px;
+    height: 350px;
+    animation-duration: 3s;
+    animation-name: producto;
+}
+
+div .item3 :hover{
+    border: #276e90 solid 3px;
+    transform: scale(2,1);
+}
+
+.item7{
+    grid-column: 1/3;
+    text-align: justify;
+    background: black;
+    color: white;
+}
+
+.item8{
+    grid-column: 3/5; 
+    background: black;
+
+}
+
+.video{
+    height: 300px;
+    width: 100%;
+    transition: height 2s, width 1s;
+}
+
+div .item8 :hover{
+    height: 500px;
+    width: 100%;
+}
+
+.item9{
+    grid-column: 1/3;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: black solid 3px;
+    text-align: center;
+}
+
+.item10{
+    grid-column: 3/5;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: black solid 3px;
+    text-align: center;
+}
+
+.item11{
+    grid-column: 1/5;
+}
+
+footer{
+    background: linear-gradient(to bottom, #ffffff 0%, #276e90 17%);
+    color: white;
+    grid-column: 1/5;
+    height: auto;
+    padding: 5em;
+}
+

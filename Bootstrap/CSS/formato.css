@@ -1,0 +1,196 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+background-color: white;
+height: 600px;
+flex-wrap: wrap;
+}
+h2{
+    color: black;
+    font-style: normal;
+    font-size: 22px;
+    text-align: justify;
+    text-transform: capitalize;
+    
+}
+ .quienessomos{
+     width: 50%;
+     float: left;
+     height: auto;
+     display: flex;
+     margin: 1px;
+ }
+ .video{
+    width: 40%;
+    float: right;
+    height: auto;
+    display: flex;
+    padding: 1px;
+    margin: 1px;
+    border: #276e90 solid 2px;
+}
+ .pie{
+     list-style: none;
+     text-decoration: none;
+ }
+ footer{
+     background: #276e90;
+     color: white;
+     text-decoration: none;
+     text-align: center;
+     width: 99%;
+     margin: 10px;
+     height: auto;
+ }
+p{
+    font-style: normal;
+    font-size: 14px;
+    text-align: justify;
+}
+
+ol{
+    list-style-position: outside;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    background-color: #276e90;
+    color: white;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+.logo{
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    position: fixed;
+}
+h3{
+    background-color: #0a3143;
+    color: white;
+    text-align: center;
+}
+.menu{
+    list-style: none;
+    width: 98%;
+    float: none;
+    position: fixed;
+    clear: both;
+    height: 5px;
+    text-align: center;
+}
+#menu{
+    flex-wrap: nowrap;
+}
+.menu ul{
+    list-style: none;
+}
+.menu > li{
+    display: inline-block;
+}
+.menu > li > a{
+    text-decoration: none;
+    color: #0a3143;
+    padding: 15px 20px;
+    display: block;
+    font-weight: bold;
+}
+.menu li a:hover{
+    color: white;
+    background-color: #276e90;
+}
+.submenu{
+    position: absolute;
+    color: white;
+    display: none;
+    text-align: left;
+}
+.submenu li a{
+    display: block;
+    padding: 15px;
+    color: white;
+    background-color: #276e90;
+    text-decoration: none;
+}
+.menu li:hover .submenu{
+    display: block;
+}
+.submenu li a:hover{
+    background-color: #0a3143
+}
+.galeria{
+    width: 100%;
+    height: 400px;
+}
+.superior{
+    width: 100%;
+    height: 110px;
+    padding: 10px;
+    position: fixed;
+    background: white;
+}
+.boton{
+    width: 300px;
+    height: 150px;
+    padding: 10px;
+    background: #0a3143;
+    color: white;
+    text-decoration: none;
+}
+.Fondo{
+    display: flex;
+    flex-direction: row;
+    background: #cecfc9;
+    padding: 3px;
+    flex-flow: row nowrap;
+}
+.Fondo div p{
+    width: 90%;
+    height: auto;
+    font-size: 16px;
+    padding: 10px;
+}
+.Fondo div img{
+    width: 700px;
+    height: auto;
+    text-align: right;
+    flex-flow: row nowrap;
+}
+.sellos{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex: 1;
+    padding: 3px;
+}
+.sellos div{
+    border: solid black 2px;
+    padding: 10px;
+    background: white;
+    flex: 2;
+}
+.sellos div ul{
+list-style: none;
+font-style: normal;
+font-size: 14px;
+text-align: justify;
+}
+header{
+    padding: 1em;
+    margin:1px;
+}
+.pie div{
+    padding: 10px;
+    flex: 2;
+    flex-direction: row;
+}
+.pie div ul{
+    list-style: none;
+    text-decoration: none;
+}
+.Noticias{
+    font-size: 30px;
+    text-align: center;
+}

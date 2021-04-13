@@ -1,0 +1,96 @@
+.contenedor {
+  margin: 0 auto;
+  max-width: 1000px;
+  width: 90%;
+}
+
+.card {
+  background: #efefef;
+  border-radius: 15px;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.card__thumbnail {
+  height: 200px;
+  margin-right: 20px;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.card__img {
+  width: auto;
+}
+
+.card__titulo {
+  margin-bottom: 20px;
+}
+
+.card__enlace {
+  color: #0a3143;
+}
+
+.card__extracto {
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+
+.boton {
+  border: none;
+  min-width: 180px;
+  height: 50px;
+  padding: 0 30px;
+  background: #276e90;
+  color: #efefef;
+  display: inline-block;
+  border-radius: 100px;
+  text-decoration: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.boton__texto {
+  font-weight: 550;
+}
+
+.boton:hover {
+  background: #0a3143;
+  color: #efefef;
+  text-decoration: none;
+}
+
+.boton--gris {
+  background: #c3cfc9;
+  color: #0a3143;
+}
+
+.boton--gris:hover {
+  background: #0a3143;
+  color: #efefef;
+}
+
+.frase {
+  text-align: center;
+  margin: 70px 0;
+}
+
+.frase__texto {
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 550;
+}
+/*# sourceMappingURL=estilo.css.map */
